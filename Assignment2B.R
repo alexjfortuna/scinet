@@ -1,6 +1,6 @@
 #Import csv file containing data into R
 
-basketball = read.csv("C:/Users/AlexFortuna/Desktop/RaptorsShots40.csv", header = TRUE)
+basketball = read.csv("C:/Users/RaptorsShots40.csv", header = TRUE)
 
 #plot basketball scatter plot of shot locations
 pdf(file = "basketball.pdf")
